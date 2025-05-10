@@ -14,16 +14,16 @@ const Banner = () => {
   return (
     <div className="bg-purple-100 py-16 px-3 ">
       <div className="grid md:grid-cols-3 grid-cols-1 gap-3 md:w-[1200px] mx-auto">
-        <div className="md:col-span-2 col-span-1  md:w-[599px] md:mt-24 ">
-            <p className="text-[#5F2DED] py-1  bg-[#DED4F7] rounded-[20px]  w-[257px] text-center" >The Leader in Online Learning</p>
+        <div className="md:col-span-2 col-span-1  md:w-[599px] md:mt-[160px]">
+            <p className="text-[#5F2DED] py-1  bg-[#DED4F7] rounded-[20px]  w-[257px] text-center md:mb-7 mb-4" >The Leader in Online Learning</p>
           <h1 className="md:text-6xl text-2xl font-bold">Grow Your Learning Skills With Us</h1>
-          <p className="py-3 ">
+          <p className="md:pt-10 pt-5 text-[#4D4E50] text-[18px]">
           Unlock your full potential and achieve your personal and professional goals through our diverse range of courses and expert-led programs. 
           </p>
-          <button className="btn btn-primary">View Course <FaArrowRightLong /></button>
+          <button className="btn btn-primary mt-8 md:mt-12">View Course <FaArrowRightLong /></button>
         </div>
 
-        <div>
+        <div className="md:my-[100px] my-[50px]" >
           <Swiper
             effect={"cards"}
             grabCursor={true}
@@ -32,13 +32,10 @@ const Banner = () => {
             pagination={{
                 clickable: true,
               }}
-             
           >
-            
             <SwiperSlide><img className="md:w-[384px] w-[300px] object-cover" src={banner1} alt="" /></SwiperSlide>
             <SwiperSlide><img className="md:w-[384px] w-[300px]  object-cover"  src={banner2} alt="" /></SwiperSlide>
             <SwiperSlide><img className="md:w-[384px] w-[300px]  object-cover"  src={banner3} alt="" /></SwiperSlide>
-        
           </Swiper>
         </div>
       </div>

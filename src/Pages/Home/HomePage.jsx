@@ -1,14 +1,15 @@
 import React from 'react';
 import Banner from '../../Componente/Banner';
 import Top_Courses from '../../Componente/Top_Courses';
+import Online_Courses from '../../Componente/Online_Courses';
 
 const HomePage = () => {
     return (
         <div>
           <Banner></Banner>
-          <div className=''>
+          
             <Top_Courses></Top_Courses>
-          </div>
+        <Online_Courses></Online_Courses>
         </div>
     );
 };
