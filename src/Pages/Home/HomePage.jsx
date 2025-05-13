@@ -4,6 +4,7 @@ import Top_Courses from '../../Componente/Top_Courses';
 import Online_Courses from '../../Componente/Online_Courses';
 import About_Us from '../../Componente/About_Us';
 import BenefitsSection from '../../Componente/BenefitsSection';
+import RegisterSection from '../../Componente/RegisterSection';
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Online_Courses></Online_Courses>
         <About_Us></About_Us>
         <BenefitsSection></BenefitsSection>
+        <RegisterSection></RegisterSection>
         </div>
     );
 };
