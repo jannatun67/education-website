@@ -4,14 +4,28 @@ import book from "../assets/icons/book.png"
 import { GoArrowUpRight } from "react-icons/go";
 
 const Online_Courses = () => {
-const [courses,setCourses]=useState([])
+const [courses, setCourses] = useState([]);
+const [filteredCourses, setFilteredCourses] = useState([]);
+const [activeCategory, setActiveCategory] = useState("All");
 
 useEffect(() => {
-    fetch('courses.json')
-      .then(res => res.json())
-      .then(data => setCourses(data));
-  }, []);
+  fetch('courses.json')
+    .then(res => res.json())
+    .then(data => {
+      setCourses(data);
+      setFilteredCourses(data);
+    });
+}, []);
 
+const handleFilter = (category) => {
+  setActiveCategory(category);
+  if (category === "All") {
+    setFilteredCourses(courses);
+  } else {
+    const filtered = courses.filter(course => course.category === category);
+    setFilteredCourses(filtered);
+  }
+};
 
 
     return (
@@ -23,17 +37,27 @@ useEffect(() => {
           <h2 className="text-5xl md:mt-[30px] mt-[15px] md:mb-[50px] mb-[25px] font-bold text-gray-800">
             Perfect Online Course <br /> for Your Career
           </h2>
-          <div className="mt-4 md:mb-[60px] mb-[30px] space-x-4 font-medium text-gray-500">
-            <button className="hover:text-indigo-600">All</button>
-            <button className="hover:text-indigo-600">Development</button>
-            <button className="hover:text-indigo-600">Marketing</button>
-            <button className="hover:text-indigo-600">Business</button>
-            <button className="hover:text-indigo-600">Finance</button>
-          </div>
+
+        <div className="mt-4 md:mb-[60px] mb-[30px] space-x-4 font-medium text-gray-500">
+  {["All", "Development", "Marketing", "Business", "Finance"].map((cat) => (
+    <button
+      key={cat}
+      onClick={() => handleFilter(cat)}
+      className={`hover:text-[#E51C58] ${
+        activeCategory === cat ? "text-[#E51C58] font-semibold" : ""
+      }`}
+    >
+      {cat}
+    </button>
+  ))}
+</div>
+
+
         </div>
   
         <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-6 max-w-6xl mx-auto">
-          {courses.map((course) => (
+       {filteredCourses.map((course) => (
+
             <div key={course.id} className="bg-white rounded-xl shadow p-4 relative group hover:shadow-lg transition duration-300">
               <img
                 src={course.image}

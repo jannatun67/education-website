@@ -1,2 +1,63 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -40px !important;
+}
+
+.custom-bullet {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.default-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: #999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.active-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+img.active-icon {
+    margin-bottom: -10px !important;
+}
+
+.swiper-pagination-bullet-active .default-dot {
+  display: none;
+}
+
+.swiper-pagination-bullet-active .active-icon {
+  display: block;
+}
+
+
+
+
+/* This removes default round bullet background */
+.swiper-pagination-bullet {
+  background: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 6px;
+  opacity: 1 !important;
+}
+
+/* Optional: active bullet styling */
+.swiper-pagination-bullet-active svg {
+  stroke: #F22757; /* your active color */
+  transform: scale(1.2);
+}

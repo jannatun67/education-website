@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/JRHrM4N4/Image-1.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "border border-black text-black",
+    "category": "Data Science",
+    "day": "Monday"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/xK0dhRNv/unsplash-4sy-O0f-P1-Bf0.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "bg-[#F22757] text-white",
+    "category": "AI & Analytics",
+    "day": "Tuesday"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/39YHc5Lk/unsplash-4sy-O0f-P1-Bf0-1.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "border border-black text-black",
+    "category": "Big Data",
+    "day": "Wednesday"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/hJXjMd6c/unsplash-4sy-O0f-P1-Bf0-2.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "border border-black text-black",
+    "category": "Technology",
+    "day": "Thursday"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/JRHrM4N4/Image-1.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "border border-black text-black",
+    "category": "Data Science",
+    "day": "Friday"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/xK0dhRNv/unsplash-4sy-O0f-P1-Bf0.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "bg-[#F22757] text-white",
+    "category": "AI & Analytics",
+    "day": "Friday"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/39YHc5Lk/unsplash-4sy-O0f-P1-Bf0-1.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "border border-black text-black",
+    "category": "Big Data",
+    "day": "Friday"
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/hJXjMd6c/unsplash-4sy-O0f-P1-Bf0-2.png",
+    "location": "259 Hilton , New York",
+    "time": "08:00 am – 10:00 am",
+    "title": "Unlocking the Power of Data Harnessing",
+    "ticketStyle": "border border-black text-black",
+    "category": "Technology",
+    "day": "Friday"
+  }
+]

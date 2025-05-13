@@ -5,6 +5,7 @@ import "swiper/css/effect-cards";
 import { EffectCards,Pagination } from "swiper/modules";
 import 'swiper/css/pagination';
 import { FaArrowRightLong } from "react-icons/fa6";
+import paginationActiveIcon from "../assets/icons/Active.svg"
 
 import banner1 from "../assets/Banner/Item_06.png"
 import banner2 from "../assets/Banner/Item_04.png"
@@ -22,17 +23,27 @@ const Banner = () => {
           </p>
           <button className="btn btn-primary mt-8 md:mt-12">View Course <FaArrowRightLong /></button>
         </div>
+       
 
         <div className="md:my-[100px] my-[50px]" >
           <Swiper
-            effect={"cards"}
-            grabCursor={true}
-            modules={[EffectCards,Pagination]}
-            className="mySwiper"
-            pagination={{
-                clickable: true,
-              }}
-          >
+      effect="cards"
+      grabCursor={true}
+      modules={[EffectCards, Pagination]}
+      className="mySwiper"
+      pagination={{
+        clickable: true,
+        renderBullet: (index, className) => {
+          return `
+            <span class="${className} custom-bullet">
+              <span class="default-dot"></span>
+              <img class="active-icon" src="${paginationActiveIcon}" alt="active icon" />
+            </span>
+          `;
+        },
+      }}
+    >
+
             <SwiperSlide><img className="md:w-[384px] w-[300px] object-cover" src={banner1} alt="" /></SwiperSlide>
             <SwiperSlide><img className="md:w-[384px] w-[300px]  object-cover"  src={banner2} alt="" /></SwiperSlide>
             <SwiperSlide><img className="md:w-[384px] w-[300px]  object-cover"  src={banner3} alt="" /></SwiperSlide>

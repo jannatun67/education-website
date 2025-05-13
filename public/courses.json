@@ -1,63 +1,68 @@
 [
-    {
-      "id": 1,
-      "image": "https://i.ibb.co.com/SDFtB0wj/Image.png",
-      "title": "The Power of Podcast for Storytelling",
-      "instructor": "Jane Cooper",
-      "price": "Free",
-      "rating": 4.8,
-      "enrolled": "1.5k",
-      "tag": "Featured"
-    },
-    {
-      "id": 2,
-      "image": "https://i.ibb.co.com/BVKkxgnB/image-3910.png",
-      "title": "The Power of Podcast for Storytelling",
-      "instructor": "Cameron Williamson",
-      "price": "$245.00",
-      "rating": 4.9,
-      "enrolled": "3.2k",
-      "tag": "Artificial"
-    },
-    {
-      "id": 3,
-      "image": "https://i.ibb.co.com/mCP7dj2j/image-3907.png",
-      "title": "The Power of Podcast for Storytelling",
-      "instructor": "Savannah Nguyen",
-      "price": "$169.00",
-      "rating": 4.7,
-      "enrolled": "2.3k",
-      "tag": "Marketing"
-    },
-    {
-      "id": 4,
-      "image": "https://i.ibb.co.com/3Yr8139K/image-3909.png",
-      "title": "The Power of Podcast for Storytelling",
-      "instructor": "Jenny Wilson",
-      "price": "$79.00",
-      "rating": 4.6,
-      "enrolled": "760",
-      "tag": "Language"
-    },
-    {
-      "id": 5,
-      "image": "https://i.ibb.co.com/Rk8rC7nr/image-3905.png",
-      "title": "The Power of Podcast for Storytelling",
-      "instructor": "Dianne Russell",
-      "price": "$140.20",
-      "rating": 4.3,
-      "enrolled": "1.8k",
-      "tag": "Finance"
-    },
-    {
-      "id": 6,
-      "image": "https://i.ibb.co.com/0RQ9WpKZ/image-3908.png",
-      "title": "The Power of Podcast for Storytelling",
-      "instructor": "Guy Hawkins",
-      "price": "$109.99",
-      "rating": 4.50,
-      "enrolled": "1.2k",
-      "tag": "Featured"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/SDFtB0wj/Image.png",
+    "title": "The Power of Podcast for Storytelling",
+    "instructor": "Jane Cooper",
+    "price": "Free",
+    "rating": 4.8,
+    "enrolled": "1.5k",
+    "tag": "Featured",
+    "category": "Featured"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/BVKkxgnB/image-3910.png",
+    "title": "The Power of Podcast for Storytelling",
+    "instructor": "Cameron Williamson",
+    "price": "$245.00",
+    "rating": 4.9,
+    "enrolled": "3.2k",
+    "tag": "Artificial",
+    "category": "Artificial"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/mCP7dj2j/image-3907.png",
+    "title": "The Power of Podcast for Storytelling",
+    "instructor": "Savannah Nguyen",
+    "price": "$169.00",
+    "rating": 4.7,
+    "enrolled": "2.3k",
+    "tag": "Marketing",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/3Yr8139K/image-3909.png",
+    "title": "The Power of Podcast for Storytelling",
+    "instructor": "Jenny Wilson",
+    "price": "$79.00",
+    "rating": 4.6,
+    "enrolled": "760",
+    "tag": "Language",
+    "category": "Language"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/Rk8rC7nr/image-3905.png",
+    "title": "The Power of Podcast for Storytelling",
+    "instructor": "Dianne Russell",
+    "price": "$140.20",
+    "rating": 4.3,
+    "enrolled": "1.8k",
+    "tag": "Finance",
+    "category": "Finance"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/0RQ9WpKZ/image-3908.png",
+    "title": "The Power of Podcast for Storytelling",
+    "instructor": "Guy Hawkins",
+    "price": "$109.99",
+    "rating": 4.5,
+    "enrolled": "1.2k",
+    "tag": "Featured",
+    "category": "Featured"
+  }
+]
