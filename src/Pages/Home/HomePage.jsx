@@ -3,6 +3,7 @@ import Banner from '../../Componente/Banner';
 import Top_Courses from '../../Componente/Top_Courses';
 import Online_Courses from '../../Componente/Online_Courses';
 import About_Us from '../../Componente/About_Us';
+import BenefitsSection from '../../Componente/BenefitsSection';
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
             <Top_Courses></Top_Courses>
         <Online_Courses></Online_Courses>
         <About_Us></About_Us>
+        <BenefitsSection></BenefitsSection>
         </div>
     );
 };
