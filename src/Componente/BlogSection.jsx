@@ -64,7 +64,7 @@ const BlogSection = () => {
                   In today’s fast-paced and ever-changing world, staying
                   relevant
                 </p>
-                <div className="flex gap-1 items-center">
+                <div className="flex gap-1 items-center font-medium">
                   Learn More <GoArrowRight />
                 </div>
               </div>
@@ -81,11 +81,22 @@ const BlogSection = () => {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">New movie is released!</h2>
-                  <p>Click the button to watch on Jetflix app.</p>
-                  <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Watch</button>
-                  </div>
+                <p className="flex gap-1 items-center">
+                  <span className="text-primary">
+                    <FaCalendarWeek />
+                  </span>{" "}
+                  July 12,2024
+                </p>
+                 <h2 className="card-title">
+                  Why Lifelong Learning Matters Today
+                </h2>
+                   <p>
+                  In today’s fast-paced and ever-changing world, staying
+                  relevant
+                </p>
+                   <div className="flex gap-1 items-center font-medium">
+                  Learn More <GoArrowRight />
+                </div>
                 </div>
               </div>
             </div>
@@ -99,12 +110,23 @@ const BlogSection = () => {
                     className="object-cover"
                   />
                 </figure>
-                <div className="card-body">
-                  <h2 className="card-title">New movie is released!</h2>
-                  <p>Click the button to watch on Jetflix app.</p>
-                  <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Watch</button>
-                  </div>
+                 <div className="card-body">
+                <p className="flex gap-1 items-center">
+                  <span className="text-primary">
+                    <FaCalendarWeek />
+                  </span>{" "}
+                  July 12,2024
+                </p>
+                 <h2 className="card-title">
+                  Why Lifelong Learning Matters Today
+                </h2>
+                   <p>
+                  In today’s fast-paced and ever-changing world, staying
+                  relevant
+                </p>
+                   <div className="flex gap-1 items-center font-medium">
+                  Learn More <GoArrowRight />
+                </div>
                 </div>
               </div>
             </div>
