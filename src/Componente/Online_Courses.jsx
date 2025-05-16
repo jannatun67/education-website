@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import instructor from "../assets/instructor/instructor.png"
 import book from "../assets/icons/book.png"
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from 'react-router';
 
 const Online_Courses = () => {
 const [courses, setCourses] = useState([]);
@@ -58,7 +59,7 @@ const handleFilter = (category) => {
         <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-6 max-w-6xl mx-auto">
        {filteredCourses.map((course) => (
 
-            <div key={course.id} className="bg-white rounded-xl shadow p-4 relative group hover:shadow-lg transition duration-300">
+            <div key={course.id} className="bg-white rounded-xl  p-4 relative group  transition duration-300">
               <img
                 src={course.image}
                 alt={course.title}
@@ -83,9 +84,9 @@ const handleFilter = (category) => {
                 <hr className='text-gray-100' />
                 <div className="mt-3 flex justify-between items-center">
                   <span className="text-indigo-600 font-bold">{course.price}</span>
-                  <div className="text-xs text-[#4D4E50] font-medium flex items-center gap-2">
+                 <Link to={`/course${course?.id}`}> <div className="text-xs text-[#4D4E50] font-medium flex items-center gap-2">
                   View Details <span><GoArrowUpRight /></span>
-                  </div>
+                  </div></Link>
                 </div>
               </div>
             </div>

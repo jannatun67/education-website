@@ -7,6 +7,8 @@ import BenefitsSection from '../../Componente/BenefitsSection';
 import RegisterSection from '../../Componente/RegisterSection';
 import EventListSection from '../../Componente/EventListSection';
 import BlogSection from '../../Componente/BlogSection';
+import InstructorSlider from '../../Componente/InstructorSlider';
+import TestimonialSlider from '../../Componente/testimonials';
 
 const HomePage = () => {
     return (
@@ -19,6 +21,8 @@ const HomePage = () => {
         <BenefitsSection></BenefitsSection>
         <RegisterSection></RegisterSection>
         <EventListSection></EventListSection>
+        <InstructorSlider></InstructorSlider>
+        <TestimonialSlider></TestimonialSlider>
         <BlogSection></BlogSection>
         </div>
     );

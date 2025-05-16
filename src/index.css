@@ -61,3 +61,27 @@ img.active-icon {
   stroke: #F22757; /* your active color */
   transform: scale(1.2);
 }
+
+
+
+ .swiper-pagination-bullet-actives {
+    position: relative;
+  }
+  .swiper-pagination-bullet-actives img {
+    position: relative;
+    z-index: 1;
+  }
+  .swiper-pagination-bullet-actives::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 0;
+  }

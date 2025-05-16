@@ -3,7 +3,7 @@ import  registerImage from "../assets/Banner/Image (1).png"
 
 const RegisterSection = () => {
     return (
-       <div className='py-30'>
+       <div className='my-30'>
          <div className="flex flex-col md:flex-row h-screen ">
       {/* Left - Form Section */}
       <div className="bg-[#6C2EFF] text-white flex items-center justify-center w-full md:w-1/2 p-10">
@@ -29,7 +29,7 @@ const RegisterSection = () => {
               <input
                 type="tel"
                 placeholder="Phone*"
-                className="w-1/2 p-3 rounded  border-gray-400 border  text-white  focus:outline-none"
+                className="w-1/2  p-3  rounded  border-gray-400 border  text-white  focus:outline-none"
               />
               <select className="w-1/2 p-3  rounded  border-gray-400 border text-white focus:outline-none">
                 <option className='text-black'>Address*</option>

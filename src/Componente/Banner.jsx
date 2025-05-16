@@ -44,7 +44,7 @@ const Banner = () => {
       }}
     >
 
-            <SwiperSlide><img className="md:w-[384px] w-[300px] object-cover" src={banner1} alt="" /></SwiperSlide>
+            <SwiperSlide><img className="md:w-[384px] w-[300px]  object-cover" src={banner1} alt="" /></SwiperSlide>
             <SwiperSlide><img className="md:w-[384px] w-[300px]  object-cover"  src={banner2} alt="" /></SwiperSlide>
             <SwiperSlide><img className="md:w-[384px] w-[300px]  object-cover"  src={banner3} alt="" /></SwiperSlide>
           </Swiper>

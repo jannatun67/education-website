@@ -19,19 +19,19 @@ const EventListSection = () => {
   const days = ['Friday', 'Monday', 'Thursday', 'Tuesday', 'Wednesday'];
     
     return (
-       <section className="pb-30 px-4 md:px-12 bg-white">
+       <section className=" py-30 px-4 md:px-12 bg-white">
       {/* Header */}
       <div className="text-center mb-10">
-        <span className="bg-purple-200 text-purple-700 px-4 py-1 rounded-full text-sm font-medium">
+        <span className="bg-purple-200  text-purple-700 px-4 py-1 rounded-full text-sm font-medium">
           Event List
         </span>
-        <h2 className="text-3xl md:text-4xl font-bold mt-4">
+        <h2 className="text-3xl md:text-4xl font-bold mt-7 mb-10">
           We Arrange Learning <br /> Event for Students
         </h2>
       </div>
 
       {/* Tabs */}
-      <div className="flex justify-center space-x-6 mb-10 text-lg font-medium">
+      <div className="flex justify-center space-x-6 mb-14 text-lg font-medium">
         {days.map((day) => (
           <button
             key={day}
@@ -64,9 +64,9 @@ const EventListSection = () => {
                   {event.location}</span>
                   <span className='flex gap-1 items-center'><span className='text-primary'><MdOutlineWatchLater /></span>{event.time}</span>
                 </div>
-                <h3 className="font-semibold text-lg mt-2">{event.title}</h3>
+                <h3 className="font-semibold text-lg mt-4">{event.title}</h3>
                 <button
-                  className={`mt-2 px-4 py-1 rounded-full text-sm flex items-center gap-1 w-fit ${event.ticketStyle}`}
+                  className={`mt-4 px-4 py-1 rounded-full text-sm flex items-center gap-1 w-fit ${event.ticketStyle}`}
                 >
                   Get Ticket →
                 </button>

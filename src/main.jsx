@@ -12,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <Routes>
     <Route element={<MainLayout/>}>
     <Route path="/" element={<HomePage/>} />
+     <Route path={"/course:id"} element={<HomePage/>} />
    </Route>
     </Routes>
   </BrowserRouter>

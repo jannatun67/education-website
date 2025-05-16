@@ -1,0 +1,44 @@
+[
+  {
+    "name": "James",
+    "title": "Marketing Professional",
+    "image": "james.jpg",
+    "review": "Amazing product. Looking very fresh with a very qualitative design. Love the way it works. The installation was quite easy. Love the support team and their quick responses.",
+    "rating": 5
+  },
+  {
+    "name": "Sophia",
+    "title": "UI/UX Designer",
+    "image": "sophia.jpg",
+    "review": "Clean interface and seamless user experience. This has really improved my productivity. Highly recommended!",
+    "rating": 5
+  },
+  {
+    "name": "Liam",
+    "title": "Tech Entrepreneur",
+    "image": "liam.jpg",
+    "review": "Incredible value for the price. Setup was effortless and the documentation is super helpful.",
+    "rating": 4
+  },
+  {
+    "name": "Olivia",
+    "title": "Software Developer",
+    "image": "olivia.jpg",
+    "review": "Reliable and fast. Customer service helped me resolve an issue in minutes. Very impressed!",
+    "rating": 5
+  },
+  {
+    "name": "Noah",
+    "title": "Startup Founder",
+    "image": "noah.jpg",
+    "review": "Exactly what we needed for our team. It’s intuitive and the support is top-notch.",
+    "rating": 5
+  },
+  {
+    "name": "Emma",
+    "title": "Digital Strategist",
+    "image": "emma.jpg",
+    "review": "Great product. I've tried many alternatives, and this is by far the best. Smooth performance and excellent UI.",
+    "rating": 4
+  }
+]
