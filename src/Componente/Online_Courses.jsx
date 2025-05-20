@@ -10,7 +10,7 @@ const [filteredCourses, setFilteredCourses] = useState([]);
 const [activeCategory, setActiveCategory] = useState("All");
 
 useEffect(() => {
-  fetch('courses.json')
+  fetch('/courses.json')
     .then(res => res.json())
     .then(data => {
       setCourses(data);
@@ -84,7 +84,7 @@ const handleFilter = (category) => {
                 <hr className='text-gray-100' />
                 <div className="mt-3 flex justify-between items-center">
                   <span className="text-indigo-600 font-bold">{course.price}</span>
-                 <Link to={`/course${course?.id}`}> <div className="text-xs text-[#4D4E50] font-medium flex items-center gap-2">
+                 <Link to={`/course/${course?.id}`}> <div className="text-xs text-[#4D4E50] font-medium flex items-center gap-2">
                   View Details <span><GoArrowUpRight /></span>
                   </div></Link>
                 </div>
